@@ -2,10 +2,10 @@ package quiz.infrastructure.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
-import quiz.infrastructure.entity.QuizEntity;
+import quiz.infrastructure.entity.ResultEntity;
 
 /**
  * JPAを利用するためのインタフェース
  */
-public interface QuizJpaRepository extends JpaRepository<QuizEntity, String>, JpaSpecificationExecutor<QuizEntity> {
+public interface ResultJpaRepository extends JpaRepository<ResultEntity, String>, JpaSpecificationExecutor<ResultEntity> {
 }
