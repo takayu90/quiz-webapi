@@ -14,7 +14,7 @@ public class QuizAnswer {
      */
     private String quizId;
     /**
-     * 答え
+     * 正解・答え
      */
     private String answer;
 }

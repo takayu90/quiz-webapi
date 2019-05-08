@@ -50,9 +50,9 @@ public class QuizEntity {
     /**
      * ドメインオブジェクトへ変換
      *
-     * @return QuizBody
+     * @return Quiz
      */
-    public Quiz toDomainQuiz() {
+    public Quiz toDomainObject() {
         return Quiz.builder()
                 .quizId(this.quizId)
                 .category(this.category)
